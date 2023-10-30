@@ -1,0 +1,253 @@
+.main{
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerPerfil{
+  width: 80%;
+    background-color: #dadada;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.containerPerfilDark{
+  background-color: #535353;
+}
+.title{
+  width: 100%;
+  padding: 20px 0px;
+}
+.UserDark{
+  background: #000000 !important;
+}
+.User{
+  font-size: 150px;
+  margin: 80px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 100%;
+  border: 5px solid #42b3ce;
+  max-width: 300px;
+}
+.sectionUserDark label p{
+  color: #42b3ce !important;
+  
+}
+.sectionUserDark label input{
+  background-color: #222;
+  color: #fff;
+  pointer-events: none;
+}
+.sectionUser{
+  font-size: 24px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+.sectionUser label{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.divContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionUser label p{
+  font-size: 24px;
+    font-weight: 700;
+    color: #134b58;
+    margin-left: 5px;
+}
+.sectionUser label input{
+  font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+
+
+}
+.containerEdit{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.containerEdit input{
+  
+  
+  
+}
+.btnDelete{
+
+  display: flex;
+  align-self: center;
+  padding: 5px 5px;
+
+  background-color: rgb(165, 47, 47);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnMoney{
+cursor: pointer;
+display: flex;
+align-self: center;
+padding: 5px 5px;
+width: 100%;
+background-color: rgb(47, 165, 143);
+color: rgb(255, 255, 255);
+text-align: center;
+border-radius: 5px;
+font-size: 24px;
+}
+.btnEdit{
+  color: #fff;
+  background-color: red;
+  padding: 5px 3px 5px 6px;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+}
+.btnEdit:hover{
+  color: #73ff00;
+  background-color: rgb(61, 87, 0);
+  padding: 5px 3px 5px 6px;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.mainToken{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.icontextProduct{
+  width: 30%;
+  background-color: #501a8d;
+  color: #fff;
+  border: solid 1px #a2a6bda9;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px; 
+  transition: all ease .2s;
+  font-weight: 600;
+  margin: 20px;
+  text-decoration: none;
+}
+.Container{
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+ 
+}
+.AdminContainerDark {
+
+  -webkit-text-stroke: 1px white;
+    background-color: rgb(58, 58, 58) !important;
+}
+.icontextProduct:hover{
+    
+  background-color: #a1aef5;
+  color: #303030;
+  
+
+}
+.AdminStyle{
+  height: 70VH;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+.AdminStyleh1{
+  width: -webkit-fill-available;
+}
+.editImg{
+  position: absolute;
+  color: #fff;
+  background: #7d7d7da6;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  line-height: 32px;
+  z-index: 10;
+  cursor: pointer;
+    
+}
+.containerImgEdit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnVolver{
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  font-size: 23px;
+  background: #5fb9d0;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+.mainDark{
+  background-color: rgb(136, 136, 136);
+  color: #fff;
+}
+.ProductDiv{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen and  (max-width: 1023px) {
+  .containerPerfil{ 
+  width: 100%;
+  background-color: #dadada;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+}
+
+@media screen and  (max-width: 767px) {
+  .divContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  /* Estilos para dispositivos móviles */
+ 
+}
